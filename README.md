@@ -1,6 +1,6 @@
 # Directory Backup
 
-A linux bash script that backs up changes in a chosen directory according to a set time
+A linux bash script that backs up changes in a chosen directory according to a set time inveral.
 ## Table of content
 * [Table of Content](#table-of-content)
 * [Description](#description)
@@ -9,9 +9,9 @@ A linux bash script that backs up changes in a chosen directory according to a s
 * [Executing program](#executing-program)
 * [Authors](#authors)
 * [Acknowledgments](#acknowledgments)
-## Description
 
-An 
+## Description
+The linux bash scripts backups up the info of the original directory to a file named directory-info.last .The bash scripts then procced to sleep for a duration of time specified by the user in which the user may perform modifiction to the directory (ex. create new file ). The code then procced to form another info file called directory-info.new. These two files are then compared if they are different then the original directory must have undergone some sort of modification.Hence a backup of the directory is created in the backupdirectory.
 
 ## Getting Started
 
@@ -45,7 +45,7 @@ Any advise for common problems or issues.
 command to run if program contains helper info
 ```
 
-## Authors
+## Author
 
 Moustafa Daebis
 ID:6874
