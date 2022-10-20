@@ -35,7 +35,7 @@ $ cd <path of folder>
 * Create a directory to be backedup and a directory to store all the backups ( a dictionary name *backupdir* will be created if no backup directory is provided  )
 * Provide the following snippet in the shell in the path of the folder in order to run the script with specfing acutal *directory* ,*backupdirectory* ,*wait_time* and *max_number_of _backups*.NB:wait_time is in seconds.
 ```
-$ make directory=<directory> backupdir=<backupdirecotry> wait_time=<wait_time> max_number_of_backups=<max_number_of_backups>
+$ make directory=<directory> backupdir=<backup_direcotry> wait_time=<wait_time> max_number_of_backups=<max_number_of_backups>
 ```
 * Now the bashscript is running expect a directory to be created in the backupdirectory with the format *YYYY-MM-DD-hh-mm-ss* according to current date and time when a modification is performed on the directory specified to be backed up.
 * Type the following to perform an interrput to stop the script *Ctrl+c*
