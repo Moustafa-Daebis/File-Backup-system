@@ -1,6 +1,6 @@
 # Directory Backup
 
-A linux bash script that backs up changes in a chosen directory according to a set time inveral.
+A Linux bash script that backs up changes in a chosen directory according to a set time inveral.
 ## Table of content
 * [Table of Content](#table-of-content)
 * [Description](#description)
