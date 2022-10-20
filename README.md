@@ -26,7 +26,7 @@ https://ubuntu.com/download/desktop
 $cd <path of folder>
 ```
 * create a directory to be backedup and a directory to store all the backups ( a dictionary name *backupdir* will be created if no backup directory is provided  )
-* Step-by-step bullets
+* provide the following snippet in the shell in the path of the folder 
 ```
 make directory=directory backupdir=backupdir wait_time=wait_time max_number_of_backups=max_number_of_backups
 ```
