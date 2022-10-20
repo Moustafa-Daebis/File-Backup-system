@@ -8,9 +8,9 @@ An in-depth paragraph about your project and overview of use.
 
 ## Getting Started
 
-### Dependencies
+### Prequisites 
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
+* Installation of ubuntu Linux based system
 * ex. Windows 10
 
 ### Installing
