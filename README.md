@@ -19,7 +19,7 @@ The linux bash scripts backups up the info of the original directory to a file n
 
 * Installation of ubuntu Linux based system
 https://ubuntu.com/download/desktop
-*
+* Step-up of ubuntu Linux based system
 
 ### Installing
 
