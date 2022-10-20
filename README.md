@@ -47,9 +47,6 @@ Moustafa Daebis
 ID:6874
 
 
-## Version History
-
-
 ## Acknowledgments
 * https://opensource.com/article/18/8/what-how-makefile
 * https://www.makeareadme.com/
