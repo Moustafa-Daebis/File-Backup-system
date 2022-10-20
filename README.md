@@ -4,7 +4,7 @@ A linux bash script that backs up changes in a chosen directory according to a s
 ## Table of content
 * [Table of Content](#table-of-content)
 * [Description](#description)
-* [Prequisites](#prequisites)
+* [Prerequisites](#prerequisites)
 * [Installing](#installing)
 * [Executing program](#executing-program)
 * [Author](#author)
