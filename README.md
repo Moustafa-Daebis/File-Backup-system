@@ -7,7 +7,7 @@ A linux bash script that backs up changes in a chosen directory according to a s
 * [Prequisites](#prequisites)
 * [Installing](#installing)
 * [Executing program](#executing-program)
-* [Authors](#authors)
+* [Author](#author)
 * [Acknowledgments](#acknowledgments)
 
 ## Description
@@ -23,17 +23,17 @@ https://ubuntu.com/download/desktop
 
 ### Installing
 
-* rename the file 6874-lab2.tar.gz.pdf to 6874-lab2.tar.gz
-* extract the file 6874-lab2.tar.gz to any location that suites you
+* Rename the file 6874-lab2.tar.gz.pdf to 6874-lab2.tar.gz
+* Extract the file 6874-lab2.tar.gz to any location that suites you
 
 ### Executing program
 
-* change directory within the shell to the directory in which 6874-lab folder exits through the shell command cd
+* Change directory within the shell to the directory in which 6874-lab folder exits through the shell command cd
 ```
 $cd <path of folder>
 ```
-* create a directory to be backedup and a directory to store all the backups ( a dictionary name *backupdir* will be created if no backup directory is provided  )
-* provide the following snippet in the shell in the path of the folder in order to run the script with specfing acutal *directory* ,*backupdirectory* ,*wait_time* and *max_number_of _backups*
+* Create a directory to be backedup and a directory to store all the backups ( a dictionary name *backupdir* will be created if no backup directory is provided  )
+* Provide the following snippet in the shell in the path of the folder in order to run the script with specfing acutal *directory* ,*backupdirectory* ,*wait_time* and *max_number_of _backups*
 ```
 $make directory=directory backupdir=backupdir wait_time=wait_time max_number_of_backups=max_number_of_backups
 ```
@@ -51,4 +51,5 @@ ID:6874
 
 
 ## Acknowledgments
-
+* https://opensource.com/article/18/8/what-how-makefile
+* https://www.makeareadme.com/
