@@ -4,26 +4,31 @@ A linux bash script that backs up changes in a chosen directory according to a s
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+An 
 
 ## Getting Started
 
 ### Prequisites 
 
 * Installation of ubuntu Linux based system
-* ex. Windows 10
+https://ubuntu.com/download/desktop
+*
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* rename the file 6874-lab2.tar.gz.pdf to 6874-lab2.tar.gz
+* extract the file 6874-lab2.tar.gz to any location that suites you
 
 ### Executing program
 
-* How to run the program
+* change directory within the shell to the directory in which 6874-lab folder exits through the shell command cd
+```
+$cd <path of folder>
+```
+* create a directory to be backedup and a directory to store all the backups ( a dictionary name *backupdir* will be created if no backup directory is provided  )
 * Step-by-step bullets
 ```
-code blocks for commands
+make directory=directory backupdir=backupdir wait_time=wait_time max_number_of_backups=max_number_of_backups
 ```
 
 ## Help
@@ -36,17 +41,12 @@ command to run if program contains helper info
 ## Authors
 
 Moustafa Daebis
+ID:6874
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
 
 ## Version History
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
+
 
 
 ## Acknowledgments
