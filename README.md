@@ -15,7 +15,7 @@ The linux bash scripts backups up the info of the original directory to a file n
 
 ## Getting Started
 
-### Prequisites 
+### Prerequisites 
 
 * Installation of ubuntu Linux based system
 https://ubuntu.com/download/desktop
