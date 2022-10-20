@@ -28,7 +28,7 @@ https://ubuntu.com/download/desktop
 
 ### Executing program
 
-* Change directory within the shell to the directory in which 6874-lab folder exits through the shell command cd
+* Change directory within the shell to the directory in which 6874-lab2 folder exits through the shell command cd
 ```
 $ cd <path of folder>
 ```
