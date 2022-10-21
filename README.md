@@ -27,7 +27,7 @@ https://ubuntu.com/download/desktop
 * Extract the file 6874-lab2.tar.gz to any location that suites you
 
 ### Executing program
-* The folder contains 3 files, the backup.sh file ,MAKEFILE file and the README.md file.
+* The folder contains 3 files : the backup.sh file ,MAKEFILE file and the README.md file.
 
 * Change directory within the shell to the directory in which 6874-lab2 folder content exists through the shell command cd
 ```
