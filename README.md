@@ -27,18 +27,21 @@ https://ubuntu.com/download/desktop
 * Extract the file 6874-lab2.tar.gz to any location that suites you
 
 ### Executing program
+* The folder contains 3 files, the backup.sh file ,MAKEFILE file and the README.md file.
 
-* Change directory within the shell to the directory in which 6874-lab2 folder exits through the shell command cd
+* Change directory within the shell to the directory in which 6874-lab2 folder content exists through the shell command cd
 ```
 $ cd <path of folder>
 ```
-* Create a directory to be backedup and a directory to store all the backups ( a dictionary name *backupdir* will be created if no backup directory is provided  )
-* Provide the following snippet in the shell in the path of the folder in order to run the script with specfing acutal *directory* ,*backupdirectory* ,*wait_time* and *max_number_of _backups*.
+* Create a directory to be backedup and a directory to store all the backups ( a dictionary name *backupdir* will be created if no backup directory is provided )  
+within the same path as the content of the folder
+* Provide the following snippet in the shell in the path of the folder in order to run the script with specifing acutal *directory* ,*backupdirectory* ,*wait_time* and *max_number_of _backups*.
 NB:wait_time is in seconds.
 ```
-$ make directory=<directory> backupdir=<backup_direcotry> wait_time=<wait_time> max_number_of_backups=<max_number_of_backups>
+$ make directory=<directory> backupdir=<backup_directory> wait_time=<wait_time> max_number_of_backups=<max_number_of_backups>
 ```
 * Now the bashscript is running expect a directory to be created in the backupdirectory with the format *YYYY-MM-DD-hh-mm-ss* according to current date and time when a modification is performed on the directory specified to be backed up.
+
 * Type the following to perform an interrput to stop the script *Ctrl+c*
 
 
