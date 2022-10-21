@@ -33,7 +33,8 @@ https://ubuntu.com/download/desktop
 $ cd <path of folder>
 ```
 * Create a directory to be backedup and a directory to store all the backups ( a dictionary name *backupdir* will be created if no backup directory is provided  )
-* Provide the following snippet in the shell in the path of the folder in order to run the script with specfing acutal *directory* ,*backupdirectory* ,*wait_time* and *max_number_of _backups*.NB:wait_time is in seconds.
+* Provide the following snippet in the shell in the path of the folder in order to run the script with specfing acutal *directory* ,*backupdirectory* ,*wait_time* and *max_number_of _backups*.
+NB:wait_time is in seconds.
 ```
 $ make directory=<directory> backupdir=<backup_direcotry> wait_time=<wait_time> max_number_of_backups=<max_number_of_backups>
 ```
