@@ -4,6 +4,7 @@ A Linux bash script that backs up changes in a chosen directory according to a s
 ## Table of content
 * [Table of Content](#table-of-content)
 * [Description](#description)
+* [Features]($features)
 * [Prerequisites](#prerequisites)
 * [Installing](#installing)
 * [Executing program](#executing-program)
@@ -12,6 +13,12 @@ A Linux bash script that backs up changes in a chosen directory according to a s
 
 ## Description
 The linux bash scripts backups up the info of the original directory to a file named directory-info.last .The bash scripts then procced to sleep for a duration of time specified by the user in which the user may perform modifiction to the directory (ex. create new file ) .The code then procced to form another info file called directory-info.new .These two files are then compared if they are different then the original directory must have undergone some sort of modification.Hence a backup of the directory is created in the backupdirectory.The parameters of the directory to be backed up, backupdirectory time of sleep and max number of backups will be passed to the bash script through a MAKEFILE that will also run the script.The MAKEFILE validates if the backupdirectory exists through an if statment if it does not exist the MAKEFILE will create a directory *backupdir* to become the backupdirectory . The bash script validates the directory to be backuped up exists and the values of the max number of backups and the sleep time.If any parameter of them is invalid an appropriate error message will be displayed and the bash script will not run.This is performed through a nested if statments .In the case all parameters are valid a function in the bash script will be called that will begin the backup process by calling a function named *backup_operation*.A file containing the info of the directory named directory-info.last is created. Then the sleep command pauses the script for a duartion of time specified by the user . After a file containing the directory info is formed which is named directory-info.new. These 2 files are compared if they are not the same a backup of the directory is formed through a if statement and a counter of the number of backups formed is incremented.An if statment checks on the value of the counter that holds the number of backups .If it reached the max number of backups specifed by the user, a function named ddd is called.This function goes through the files in the backupdirectory to compare the string values of the backups created (which is the date and time of creation) to obtain the minimum which represents the oldest backupdirectory though a for loop.This directory will be removed as the max number of backupdirectories has been reached .The script then continues running.
+
+## Features
+
+* backup modifications of a directory 
+* specify frequency of backup
+* specify max number of backups for  a given directory before overwriting the oldest backup
 
 ## Getting Started
 
