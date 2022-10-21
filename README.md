@@ -51,12 +51,9 @@ $ make directory=<directory> backupdir=<backup_directory> wait_time=<wait_time> 
 
 * Type the following to perform an interrput to stop the script *Ctrl+c*
 
-
 ## Author
 
 Moustafa Daebis
-ID:6874
-
 
 ## Acknowledgments
 * https://opensource.com/article/18/8/what-how-makefile
