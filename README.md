@@ -47,7 +47,7 @@ NB:wait_time is in seconds.
 ```
 $ make directory=<directory> backupdir=<backup_directory> wait_time=<wait_time> max_number_of_backups=<max_number_of_backups>
 ```
-* Now the bashscript is running expect a directory to be created in the backupdirectory with the format *YYYY-MM-DD-hh-mm-ss* according to current date and time when a modification is performed on the directory specified to be backed up.
+* Now the bashscript is running expect a directory to be created in the backupdirectory with the format *YYYY-MM-DD-hh-mm-ss* (Year month day hour minute second) according to current date and time when a modification is performed on the directory specified to be backed up.
 
 * Type the following to perform an interrput to stop the script *Ctrl+c*
 
