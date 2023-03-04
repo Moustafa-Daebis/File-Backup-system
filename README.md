@@ -53,7 +53,7 @@ $ make directory=<directory> backupdir=<backup_directory> wait_time=<wait_time> 
 
 ## Author
 
-[https://github.com/Moustafa-Daebis] (Moustafa Daebis)
+* [https://github.com/Moustafa-Daebis](Moustafa Daebis)
 
 ## Acknowledgments
 * https://opensource.com/article/18/8/what-how-makefile
