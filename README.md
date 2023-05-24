@@ -49,7 +49,7 @@ https://ubuntu.com/download/desktop
 
 ### Installing
 
-* Extract the file File-Backup-system.tar.gz to any location that suites you
+* Insall the content of this repo and extract the file File-Backup-system.tar.gz to any location that suites you
 
 ### Executing program
 * The folder contains 3 files : the backup.sh file ,MAKEFILE file and the README.md file.
