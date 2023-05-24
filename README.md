@@ -49,8 +49,7 @@ https://ubuntu.com/download/desktop
 
 ### Installing
 
-* Rename the file 6874-lab2.tar.gz.pdf to 6874-lab2.tar.gz
-* Extract the file 6874-lab2.tar.gz to any location that suites you
+* Extract the file File-Backup-system.tar.gz to any location that suites you
 
 ### Executing program
 * The folder contains 3 files : the backup.sh file ,MAKEFILE file and the README.md file.
